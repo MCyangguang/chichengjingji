@@ -18,8 +18,9 @@ public class ModCreativeTabs {
                     .title(Component.translatable("itemGroup.chichengjingji"))
                     .icon(() -> new ItemStack(ModBlocks.VENDING_MACHINE.get()))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModBlocks.VENDING_MACHINE.get());
-                        // 如果以后有其他物品，继续添加
+                        output.accept(ModBlocks.VENDING_MACHINE.get());   // 售货机
+                        output.accept(ModBlocks.CASH_REGISTER.get());    // 收银机
+                        // 后续如有其他物品可继续添加
                     })
                     .build());
 }

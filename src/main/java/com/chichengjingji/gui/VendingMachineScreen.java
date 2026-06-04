@@ -22,7 +22,7 @@ public class VendingMachineScreen extends Screen {
     private int selectedIndex = -1;
     private EditBox amountBox;
     private long lastClick = 0;
-    private int imageWidth = 200, imageHeight = 220;
+    private int imageWidth = 200, imageHeight = 220; //
     private int leftPos, topPos;
     private int refreshCooldown = 0;
 

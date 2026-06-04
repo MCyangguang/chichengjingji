@@ -25,5 +25,7 @@
   "gui.chichengjingji.message.auto_withdraw": "自动领取售货机收益 %d 赤城币",
   "itemGroup.chichengjingji": "赤城经济",
   "block.chichengjingji.cash_register": "收银机",
-  "item.chichengjingji.cash_register": "收银机"
+  "item.chichengjingji.cash_register": "收银机",
+  "recipe.chichengjingji.vending_machine": "售货机合成配方",
+  "recipe.chichengjingji.cash_register": "收银机合成配方"
 }

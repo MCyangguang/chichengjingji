@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#.#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    ".": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "chichengjingji:cash_register",
+    "count": 1
+  }
+}

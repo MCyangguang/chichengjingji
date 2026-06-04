@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "#.#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:chiseled_bookshelf"
+    },
+    ".": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "chichengjingji:vending_machine",
+    "count": 1
+  }
+}

@@ -1,4 +1,0 @@
-#新玩家初始余额
-# Default: 100
-# Range: 0 ~ 9223372036854775807
-starting_balance = 100

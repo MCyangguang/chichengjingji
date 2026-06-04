@@ -1,8 +1,7 @@
 package com.chichengjingji.block;
 
+import com.chichengjingji.Chichengjingji;
 import com.chichengjingji.blockentity.VendingMachineBE;
-import com.chichengjingji.gui.SetupScreen;
-import com.chichengjingji.gui.VendingMachineScreen;
 import com.chichengjingji.network.BalanceSyncPacket;
 import com.chichengjingji.network.ModMessages;
 import net.minecraft.client.Minecraft;
@@ -65,9 +64,11 @@ public class VendingMachineBlock extends Block implements EntityBlock {
                     player.displayClientMessage(Component.literal("§a售货机已绑定到你"), true);
                 }
                 if (be.isOwner(player.getUUID()) && !player.getMainHandItem().isEmpty()) {
-                    Minecraft.getInstance().setScreen(new SetupScreen(player.getMainHandItem().copy(), pos));
+                    // 使用代理打开设置界面
+                    Chichengjingji.PROXY.openSetupScreen(level, pos, player, player.getMainHandItem());
                 } else {
-                    Minecraft.getInstance().setScreen(new VendingMachineScreen(pos));
+                    // 使用代理打开购买界面
+                    Chichengjingji.PROXY.openVendingMachineScreen(level, pos, player);
                 }
             }
             return InteractionResult.SUCCESS;

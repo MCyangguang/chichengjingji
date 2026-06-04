@@ -1,0 +1,6 @@
+/chicheng give @s 100
+/chicheng give @s 1
+/chicheng take Dev 1
+/chicheng balance
+/chicheng set @s 300
+/give @s chichengjingji:cash_register

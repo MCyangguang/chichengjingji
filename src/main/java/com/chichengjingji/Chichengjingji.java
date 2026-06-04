@@ -35,14 +35,24 @@ import java.util.List;
 import java.util.UUID;
 
 import com.chichengjingji.block.VendingMachineBlock;
-
+import net.neoforged.fml.loading.FMLEnvironment;
+import com.chichengjingji.proxy.ClientProxy;
+import com.chichengjingji.proxy.ServerProxy;
+import com.chichengjingji.proxy.IProxy;
 
 @Mod(Chichengjingji.MODID)
 public class Chichengjingji {
     public static final String MODID = "chichengjingji";
     public static final Logger LOGGER = LogManager.getLogger(MODID);
+    public static IProxy PROXY;
 
     public Chichengjingji(IEventBus modEventBus, ModContainer modContainer) {
+        // 根据运行环境选择代理
+        if (FMLEnvironment.dist.isClient()) {
+            PROXY = new ClientProxy();
+        } else {
+            PROXY = new ServerProxy();
+        }
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
         ModBlocks.BLOCKS.register(modEventBus);
         ModBlocks.ITEMS.register(modEventBus);

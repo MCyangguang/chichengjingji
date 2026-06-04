@@ -1,7 +1,7 @@
 package com.chichengjingji.block;
 
+import com.chichengjingji.Chichengjingji;
 import com.chichengjingji.blockentity.CashRegisterBE;
-import com.chichengjingji.gui.CashRegisterScreen;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -92,7 +92,7 @@ public class CashRegisterBlock extends Block implements EntityBlock {
                     // 非所有者：打开转账界面
                     String ownerName = be.getOwnerName();
                     if (ownerName == null) ownerName = "未绑定";
-                    Minecraft.getInstance().setScreen(new CashRegisterScreen(pos, ownerName));
+                    Chichengjingji.PROXY.openCashRegisterScreen(level, pos, player, ownerName);
                 }
             }
             return InteractionResult.SUCCESS;

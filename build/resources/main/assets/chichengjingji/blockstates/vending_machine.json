@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "chichengjingji:block/vending_machine" },
+    "facing=east": { "model": "chichengjingji:block/vending_machine", "y": 90 },
+    "facing=south": { "model": "chichengjingji:block/vending_machine", "y": 180 },
+    "facing=west": { "model": "chichengjingji:block/vending_machine", "y": 270 }
+  }
+}

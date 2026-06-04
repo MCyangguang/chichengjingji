@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "chichengjingji:block/cash_register" },
+    "facing=east": { "model": "chichengjingji:block/cash_register", "y": 90 },
+    "facing=south": { "model": "chichengjingji:block/cash_register", "y": 180 },
+    "facing=west": { "model": "chichengjingji:block/cash_register", "y": 270 }
+  }
+}

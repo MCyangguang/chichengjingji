@@ -1,0 +1,16 @@
+#新玩家初始余额
+# Default: 100
+# Range: 0 ~ 9223372036854775807
+starting_balance = 100
+
+["HUD Settings"]
+	#是否显示余额 HUD
+	showBalanceHUD = true
+	#HUD 左上角 X 坐标
+	# Default: 5
+	# Range: 0 ~ 1000
+	hudPositionX = 5
+	#HUD 左上角 Y 坐标，设为 -1 则自动显示在物品栏上方
+	# Default: -1
+	# Range: -1 ~ 1000
+	hudPositionY = 5

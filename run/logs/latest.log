@@ -1,0 +1,144 @@
+[046月2026 03:07:07.571] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.232, --assetIndex, 17, --assetsDir, C:\\Users\\MCyangguang\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.232, --fml.neoFormVersion, 20240808.144430]
+[046月2026 03:07:07.577] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245
+[046月2026 03:07:07.579] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[046月2026 03:07:07.786] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[046月2026 03:07:08.020] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[046月2026 03:07:08.579] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[046月2026 03:07:08.833] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/MCyangguang/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[046月2026 03:07:09.173] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 595.97, NVIDIA Corporation
+[046月2026 03:07:09.866] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[046月2026 03:07:09.871] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.232 (neoforge)
+		赤城经济 1.0-SNAPSHOT (chichengjingji)
+[046月2026 03:07:11.516] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.232, --gameDir, ., --assetsDir, C:\Users\MCyangguang\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[046月2026 03:07:15.622] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 693 milliseconds
+[046月2026 03:07:16.068] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[046月2026 03:07:23.771] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[046月2026 03:07:23.774] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[046月2026 03:07:23.780] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[046月2026 03:07:23.782] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[046月2026 03:07:23.783] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[046月2026 03:07:23.986] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/我的世界mod制作项目/chichengjingji/build/moddev/artifacts/neoforge-21.1.232.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[046月2026 03:07:23.987] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/我的世界mod制作项目/chichengjingji/build/moddev/artifacts/neoforge-21.1.232.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[046月2026 03:07:24.045] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[046月2026 03:07:24.056] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[046月2026 03:07:24.224] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[046月2026 03:07:24.674] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.232, for MC 1.21.1
+[046月2026 03:07:25.712] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [chichengjingji]
+[046月2026 03:07:25.901] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/chichengjingji
+[046月2026 03:07:26.129] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[046月2026 03:07:26.181] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[046月2026 03:07:28.121] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[046月2026 03:07:28.122] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[046月2026 03:07:28.198] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[046月2026 03:07:28.199] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[046月2026 03:07:28.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[046月2026 03:07:28.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[046月2026 03:07:28.310] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[046月2026 03:07:28.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[046月2026 03:07:28.311] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[046月2026 03:07:28.313] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[046月2026 03:07:28.313] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[046月2026 03:07:28.314] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[046月2026 03:07:28.314] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[046月2026 03:07:28.552] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[046月2026 03:07:28.555] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[046月2026 03:07:28.555] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[046月2026 03:07:28.557] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[046月2026 03:07:28.557] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[046月2026 03:07:28.596] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[046月2026 03:07:28.707] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[046月2026 03:08:24.537] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[046月2026 03:08:24.782] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[046月2026 03:08:25.228] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[046月2026 03:08:25.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[046月2026 03:08:25.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[046月2026 03:08:25.725] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[046月2026 03:08:25.819] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[046月2026 03:08:25.826] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 322 ms
+[046月2026 03:08:25.914] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[046月2026 03:08:25.915] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[046月2026 03:08:26.507] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:f0711525] logged in with entity id 5 at (-10.991260353961684, -60.0, -8.605584644495151)
+[046月2026 03:08:26.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[046月2026 03:08:27.107] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 6 advancements
+[046月2026 03:08:30.127] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 你不能破坏别人的收银机
+[046月2026 03:08:31.222] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[046月2026 03:08:31.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[046月2026 03:08:31.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[046月2026 03:08:31.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[046月2026 03:08:32.734] [Render thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[046月2026 03:08:32.752] [Render thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Started serving on 62055
+[046月2026 03:08:32.769] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 本地游戏已在端口[62055]上开启
+[046月2026 03:08:39.404] [User Authenticator #1/WARN] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Failed to verify username but will let them in anyway!
+[046月2026 03:08:40.255] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: test1[/[240e:398:5c90:fdb0:41d3:8795:8c88:5a20]:50289] logged in with entity id 55 at (-11.002829403203044, -60.0, -10.95265111875221)
+[046月2026 03:08:40.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test1加入了游戏
+[046月2026 03:08:40.284] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] test1加入了游戏
+[046月2026 03:09:04.372] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 test1
+[046月2026 03:09:25.853] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 test1
+[046月2026 03:09:33.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 Dev 向你转账 1 赤城币
+[046月2026 03:09:33.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 Dev
+[046月2026 03:09:36.835] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:09:43.527] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:09:44.303] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:09:47.238] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 5 赤城币
+[046月2026 03:09:54.810] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 5 赤城币给 test1
+[046月2026 03:10:01.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 已将自己的游戏模式设置为生存模式]
+[046月2026 03:10:01.600] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将自己的游戏模式设置为生存模式
+[046月2026 03:10:11.206] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 你不能破坏别人的收银机
+[046月2026 03:10:21.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [test1: 已将自己的游戏模式设置为生存模式]
+[046月2026 03:10:21.514] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [test1: 已将自己的游戏模式设置为生存模式]
+[046月2026 03:10:46.959] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 你不能破坏别人的收银机
+[046月2026 03:10:58.233] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已上架 1 个 橡木原木
+[046月2026 03:11:18.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [test1: 已将1个[售货机]给予test1]
+[046月2026 03:11:18.739] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [test1: 已将1个[售货机]给予test1]
+[046月2026 03:11:29.477] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: test1 lost connection: 连接中断
+[046月2026 03:11:29.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test1退出了游戏
+[046月2026 03:11:29.496] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] test1退出了游戏
+[046月2026 03:11:34.016] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 购买成功，花费 5 赤城币
+[046月2026 03:11:44.186] [User Authenticator #2/WARN] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Failed to verify username but will let them in anyway!
+[046月2026 03:11:45.149] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: test1[/[240e:398:5c90:fdb0:41d3:8795:8c88:5a20]:62845] logged in with entity id 76 at (-15.526882129141377, -60.0, -7.453834437894226)
+[046月2026 03:11:45.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test1加入了游戏
+[046月2026 03:11:45.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] test1加入了游戏
+[046月2026 03:11:59.780] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 Dev 向你转账 1 赤城币
+[046月2026 03:11:59.781] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 Dev
+[046月2026 03:12:01.406] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 test1
+[046月2026 03:12:05.684] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:12:09.423] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:12:17.677] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: test1 lost connection: 连接中断
+[046月2026 03:12:17.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test1退出了游戏
+[046月2026 03:12:17.695] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] test1退出了游戏
+[046月2026 03:12:35.084] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 test1
+[046月2026 03:12:49.845] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 Dev 向你转账 1 赤城币
+[046月2026 03:12:49.846] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 Dev
+[046月2026 03:12:51.323] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 Dev 向你转账 1 赤城币
+[046月2026 03:12:51.324] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 Dev
+[046月2026 03:12:52.947] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 test1
+[046月2026 03:12:55.539] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 成功转账 1 赤城币给 test1
+[046月2026 03:13:14.388] [User Authenticator #3/WARN] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Failed to verify username but will let them in anyway!
+[046月2026 03:13:15.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: test1[/[240e:398:5c90:fdb0:41d3:8795:8c88:5a20]:58124] logged in with entity id 81 at (-13.117999660717636, -60.0, -7.1130764224733465)
+[046月2026 03:13:15.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: test1加入了游戏
+[046月2026 03:13:15.416] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] test1加入了游戏
+[046月2026 03:13:29.804] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:13:30.785] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:13:31.748] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:13:33.084] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:13:33.939] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:13:35.732] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 玩家 test1 向你转账 1 赤城币
+[046月2026 03:15:57.431] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
+[046月2026 03:15:57.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[046月2026 03:15:57.441] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[046月2026 03:15:57.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[046月2026 03:15:57.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[046月2026 03:15:57.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[046月2026 03:15:57.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[046月2026 03:15:58.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[046月2026 03:15:58.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[046月2026 03:15:58.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[046月2026 03:15:58.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[046月2026 03:15:58.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[046月2026 03:15:58.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[046月2026 03:15:59.985] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

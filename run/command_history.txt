@@ -1,5 +1,0 @@
-/gamemode survival
-/recipe give @p chichengjingji:vending_machine
-/recipe give @p chichengjingji:cash_register
-/recipe give @s *
-/recipe give @s chichengjingji:vending_machine

@@ -10,7 +10,7 @@ https://img.shields.io/badge/Minecraft-1.21.1-green
 收银机则允许玩家直接向指定所有者转账，方便团队或服务器内交易。
 同时模组内置了余额 HUD、经济命令等辅助功能。
 
-✨ 主要功能
+## ✨ 主要功能
 🛒 售货机
 放置即绑定：方块放置者自动成为所有者。
 
@@ -39,7 +39,7 @@ https://img.shields.io/badge/Minecraft-1.21.1-green
 
 保护机制：只有所有者可以破坏。
 
-💰 经济系统
+## 💰 经济系统
 赤城币：虚拟货币，支持命令操作。
 
 命令（所有命令前缀 /chicheng）：
@@ -58,7 +58,7 @@ transfer <目标玩家> <数量> – 转账给其他玩家
 
 配置：可通过 config/chichengjingji-common.toml 修改初始余额（默认 100）。
 
-🎨 界面与交互
+## 🎨 界面与交互
 售货机购买界面：商品列表（显示图标、单价、库存）→ 点击商品进入详情页（放大图标）→ 输入数量购买。
 
 上架界面：直观的输入框和按钮。
@@ -67,7 +67,7 @@ transfer <目标玩家> <数量> – 转账给其他玩家
 
 所有按钮支持悬停高亮，界面不暂停游戏。
 
-📦 安装
+## 📦 安装
 确保已安装 NeoForge 1.21.1。
 
 将下载的 chichengjingji-1.0-SNAPSHOT.jar 放入 .minecraft/mods 文件夹。
@@ -76,7 +76,7 @@ transfer <目标玩家> <数量> – 转账给其他玩家
 
 多人服务器：只需将 jar 文件放入服务端的 mods 文件夹，所有客户端也需安装该模组（否则无法显示界面）。
 
-🕹️ 使用指南
+## 🕹️ 使用指南
 售货机
 放置售货机（放置者即所有者）。
 
@@ -96,7 +96,7 @@ transfer <目标玩家> <数量> – 转账给其他玩家
 经济命令
 在聊天栏输入 /chicheng help 查看子命令（实际用法如上所述）。
 
-⚙️ 配置
+## ⚙️ 配置
 配置文件路径：config/chichengjingji-common.toml
 
 toml
@@ -115,7 +115,7 @@ bash
 gradlew build
 生成的 jar 位于 build/libs/。
 
-📄 许可证
+## 📄 许可证
 All Rights Reserved（请联系作者获取授权）。
 
 🧑‍💻 作者

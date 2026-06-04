@@ -1,4 +1,4 @@
-#赤城经济 (Chicheng Jingji)
+# 赤城经济 (Chicheng Jingji)
 一款为 Minecraft 添加售货机、收银机和完整经济系统的模组
 
 https://img.shields.io/badge/NeoForge-21.1.232-blue
